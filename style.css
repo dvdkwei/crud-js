@@ -1,0 +1,54 @@
+html, body{
+    padding: 10px;
+    min-width: 600px;
+    background-color: lightpink;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p {
+    font-size: 50px;
+}
+
+.container{
+    background-color: lightpink;
+    border-style: solid;
+    padding: 20px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto 0 auto 0;
+    justify-content: space-between;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+    text-align: left;
+}
+
+li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+button {
+    margin: 0px auto 0px auto;
+    padding: 2px;
+    justify-items: end;
+    align-content: center;
+}
+
+.done{
+    text-decoration: line-through;
+}
